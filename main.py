@@ -20,6 +20,9 @@ def main():
 
         choice = int(raw_choice)
 
+
+        #SO sigma skibidi guys!!! :)
+        #Oh yes print("Hello world!")
         if choice == 0:
             print("Goodbye!")
             break
