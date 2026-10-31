@@ -66,10 +66,10 @@ def run_operation(choice, x, y=None):
     elif choice == 12:
         return operations.factorial(x)
     elif choice == 13:
-        return operations.factorial(x)
+        return operations.invsin(x)
     elif choice == 14:
-        return operations.factorial(x)
+        return operations.invcos(x)
     elif choice == 15:
-        return operations.factorial(x)
+        return operations.invtan(x)
     else:
         raise ValueError("Invalid menu choice.")
