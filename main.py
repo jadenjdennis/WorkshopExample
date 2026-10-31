@@ -6,7 +6,6 @@ program: `python main.py`
 
 import ui
 
-
 def main():
     print("Welcome to the Scientific Calculator!")
 
