@@ -66,3 +66,28 @@ def factorial(x):
     if x < 0 or int(x) != x:
         raise ValueError("Factorial requires a non-negative integer.")
     return math.factorial(int(x))
+
+
+def invtan(x):
+    # Example: Calculate arctan(1)
+    if x = -1 or x = 1:
+        angle_rad = math.atan(x)
+        angle_deg = math.degrees(x)
+        print(f"Angle in radians: {angle_rad}")
+        print(f"Angle in degrees: {angle_deg}")
+
+def invcos(x):
+    # Example: Calculate arccos(1)
+    if x = -1 or x = 1:
+        angle_rad = math.acos(x)
+        angle_deg = math.degrees(x)
+        print(f"Angle in radians: {angle_rad}")
+        print(f"Angle in degrees: {angle_deg}")
+
+def invsin(x):
+    # Example: Calculate arcsin(1)
+    if x = -1 or x = 1:
+        angle_rad = math.asin(x)
+        angle_deg = math.degrees(x)
+        print(f"Angle in radians: {angle_rad}")
+        print(f"Angle in degrees: {angle_deg}")

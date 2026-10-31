@@ -42,3 +42,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+''might be possible to add inverse trig functions to the calculator''
