@@ -20,6 +20,9 @@ MENU = """
 10. Natural Log         (ln x)
 11. Log Base 10         (log10 x)
 12. Factorial           (x!)
+13. Inverse Sine        (invsin x, degrees)
+14. Inverse Cosine      (invcos x, degrees)
+15. Inverse Tangent     (invtan x, degrees)
  0. Exit
 ================================
 """
@@ -61,6 +64,12 @@ def run_operation(choice, x, y=None):
     elif choice == 11:
         return operations.log_base_10(x)
     elif choice == 12:
+        return operations.factorial(x)
+    elif choice == 13:
+        return operations.factorial(x)
+    elif choice == 14:
+        return operations.factorial(x)
+    elif choice == 15:
         return operations.factorial(x)
     else:
         raise ValueError("Invalid menu choice.")
